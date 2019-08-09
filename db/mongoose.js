@@ -27,8 +27,9 @@ const User = mongoose.model('User', {
   }
 });
 
-const user = new User({name: 'Rajneesh',
-  email: ' RAJNEESH.M49@GMAIL.COM  '
+const user = new User({
+name: 'Rajneesh',
+email: ' RAJNEESH.M49@GMAIL.COM  '
 });
 
 user
